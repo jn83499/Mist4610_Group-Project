@@ -61,7 +61,7 @@ Query 1 allows managers to identify the customers who spend the most, helping th
    
 ![Query2](Query2.png)
 
-Query 2 allows managers to see which items are popular so they know what is selling well and what might not be selling well. By identifying top-performing items, managers can know which products to restock more or promote more of. It also helps with inventory planning and forecasting demand, so they don’t overstock slow items or run out of popular ones.
+Query 2 allows managers to see which items are popular so they know what is selling well and what might not be selling well. By identifying top-performing items, managers can know which products to restock or promote more of. It also helps with inventory planning and forecasting demand, so they don’t overstock slow items or run out of popular ones.
 ## Database information
 Name of Database: al_Group_21482_G7
 Additional Info: Each query listed above is marked in the database used stored procedures which are called through the following format: CALL TP_Q() where "()" is the query number.
