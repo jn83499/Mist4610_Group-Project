@@ -55,7 +55,7 @@ Overall, the data model supports the core function and operations of a local cof
    
 ![Query1](Query1.png)
 
-Query 1 allows managers to identify the customers who spend the most, helping them focus on high-value customers. This allows them to create targeted promotions, loyalty rewards, and upselling strategies to increase revenue. It also helps them make smarter business decisions by understanding customer spending patterns.
+Query 1 allows managers to identify the customers who spend the most, helping them focus on high-value customers. This allows them to create targeted promotions, loyalty rewards, and  strategies to increase revenue. It also helps them make smarter business decisions by understanding customer spending patterns.
 
 2. Query 2 adds up the quantity sold for each product and groups the results by product name so you can see the total units sold for each individual product.
    
