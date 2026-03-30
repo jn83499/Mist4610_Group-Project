@@ -51,7 +51,7 @@ Overall, the data model supports the core function and operations of a local cof
 | REGEXP                     |    |    |    |    |    |    |    |    |    |     |
 | NOT EXISTS                 |    |    |    |    |    |    |    |    |    |     |
 
-1. Query 1 finds customers whose total spending is greater than the average order total. It joins customers, orders, and payments to calculate how much each customer has spent in total. It then compares each customer’s total spending to the average payment amount across all payment and shows the customers whose total spending is greater than that average.
+1. Query 1 finds customers who spend more than average by comparing each customer’s total spending to the overall average payment.
    
 ![Query1](Query1.png)
 
