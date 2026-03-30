@@ -51,7 +51,11 @@ Overall, the data model supports the core function and operations of a local cof
 | REGEXP                     |    |    |    |    |    |    |    |    |    |     |
 | NOT EXISTS                 |    |    |    |    |    |    |    |    |    |     |
 1. Query 1 finds customers whose total spending is greater than the average order total. It joins customers, orders, and payments to calculate how much each customer has spent in total. It then compares each customer’s total spending to the average payment amount across all payment and shows the customers whose total spending is greater than that average.
-
+![Query1](Query1.png)
+Query 1 allows managers to identify the customers who spend the most, helping them focus on high-value customers. This allows them to create targeted promotions, loyalty rewards, and upselling strategies to increase revenue. It also helps them make smarter business decisions by understanding customer spending patterns.
+2. Query 2 adds up the quantity sold for each product and groups the results by product name so you can see the total units sold for each individual product.
+![Query2](Query2.png)
+Query 2 allows managers to see which items are popular so they know what to restock more and what might not be selling well. This helps identify top-performing items which can guide decisions like which products to restock more or promote. It also helps with inventory planning and forecasting demand, so they don’t overstock slow items or run out of popular ones.
 ## Database information
 Name of Database: al_Group_21482_G7
 Additional Info: Each query listed above is marked in the database used stored procedures which are called through the following format: CALL TP_Q() where "()" is the query number.
