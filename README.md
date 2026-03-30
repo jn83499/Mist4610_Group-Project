@@ -40,7 +40,16 @@ Overall, the data model supports the core function and operations of a local cof
 ![Loyalty Account and Payment Data Dictionary](DataDict_Loy_Pmt.png)
 ![Supplier and Product Supplier Data Dictionary](DataDict_Sup_ProdSup.png)
 ## Queries
-
+| Feature                     | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 |
+|----------------------------|----|----|----|----|----|----|----|----|----|-----|
+| Multiple Table Join        | X  | X  |    |    |    |    |    |    |    |     |
+| Subquery                   | X  |    |    |    |    |    |    |    |    |     |
+| GROUP BY                   | X  | X  |    |    |    |    |    |    |    |     |
+| GROUP BY with HAVING       | X  |    |    |    |    |    |    |    |    |     |
+| Multi-condition WHERE      |    |    |    |    |    |    |    |    |    |     |
+| Built-in Functions         | X  | X  |    |    |    |    |    |    |    |     |
+| REGEXP                     |    |    |    |    |    |    |    |    |    |     |
+| NOT EXISTS                 |    |    |    |    |    |    |    |    |    |     |
 ## Database information
 Name of Database: al_Group_21482_G7
 Additional Info: Each query listed above is marked in the database used stored procedures which are called through the following format: CALL TP_Q() where "()" is the query number.
