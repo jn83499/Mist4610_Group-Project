@@ -50,6 +50,8 @@ Overall, the data model supports the core function and operations of a local cof
 | Built-in Functions         | X  | X  |    |    |    |    |    |    |    |     |
 | REGEXP                     |    |    |    |    |    |    |    |    |    |     |
 | NOT EXISTS                 |    |    |    |    |    |    |    |    |    |     |
+1. Query 1 finds customers whose total spending is greater than the average order total. It joins customers, orders, and payments to calculate how much each customer has spent in total. It then compares each customer’s total spending to the average payment amount across all payment and shows the customers whose total spending is greater than that average.
+
 ## Database information
 Name of Database: al_Group_21482_G7
 Additional Info: Each query listed above is marked in the database used stored procedures which are called through the following format: CALL TP_Q() where "()" is the query number.
