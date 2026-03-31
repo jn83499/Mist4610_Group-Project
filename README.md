@@ -41,14 +41,14 @@ Overall, the data model supports the core function and operations of a local cof
 ## Queries
 | Feature                     | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 |
 |----------------------------|----|----|----|----|----|----|----|----|----|-----|
-| Multiple Table Join        | X  | X  |    | X  | X  |    | X  |    |    |     |
-| Subquery                   | X  |    |    | X  |    |    |    |    |    |     |
+| Multiple Table Join        | X  | X  |    | X  | X  |    | X  |    |  X |  X  |
+| Subquery                   | X  |    |    | X  |    |    |    |    | X  |     |
 | GROUP BY                   | X  | X  |    |    | X  | X  |    |    |    |     |
-| GROUP BY with HAVING       | X  |    |    |    |    |    |    |    |    |     |
-| Multi-condition WHERE      |    |    |    |    |    |    |    |    |    |     |
-| Built-in Functions         | X  | X  | X  |    |    | X  |    |    |    |     |
-| REGEXP                     |    |    | X  |    |    |    |    |    |    |     |
-| NOT EXISTS                 |    |    |    |    |    |    |    |    |    |     |
+| GROUP BY with HAVING       | X  |    |    |    |    |    |    |    |    |  X  |
+| Multi-condition WHERE      |    |    |    | X  |    |    |    |    | X  |  X  |
+| Built-in Functions         | X  | X  | X  |    |    | X  | X  |    |    |  X  |
+| REGEXP                     |    |    | X  |    |    |    |    | X  |    |     |
+| NOT EXISTS                 |    |    |    |    |    |    |    |    | X  |     |
 
 1. Query 1 finds customers who spend more than average by comparing each customer’s total spending to the overall average payment.
    
